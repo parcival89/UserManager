@@ -1,0 +1,5 @@
+com\sander\usermanager\domain\Gebruiker.class
+com\sander\usermanager\App.class
+com\sander\usermanager\repository\GebruikerRepository.class
+com\sander\usermanager\util\HibernateUtil.class
+com\sander\usermanager\repository\UserManagerRepository.class
