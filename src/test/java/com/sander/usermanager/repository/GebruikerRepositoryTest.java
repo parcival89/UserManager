@@ -16,7 +16,7 @@ import static org.junit.Assert.assertThat;
 
 public class GebruikerRepositoryTest {
 
-    private GebruikerRepository repository = new GebruikerRepository();
+    private GebruikerRepository repository = GebruikerRepository.gebruikerRepository();
     private Gebruiker sander;
 
     @Before
@@ -66,7 +66,7 @@ public class GebruikerRepositoryTest {
         //voeg testgebruiker toe om op te kunnen zoeken
         Gebruiker toegevoegd = voegTestGebruikerAanDBToe();
 
-        tester = repository.zoekMetId(1L);
+        tester = repository.zoekMetId(toegevoegd.getId());
         assertThat(tester, not(is(nullValue())));
         assertThat(tester.equals(toegevoegd), is(true));
     }

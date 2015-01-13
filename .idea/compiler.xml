@@ -25,5 +25,8 @@
         <module name="Usermanager" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Usermanager" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>

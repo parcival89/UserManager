@@ -1,5 +1,6 @@
-c:\dev\projects\Usermanager\src\main\java\com\sander\usermanager\util\HibernateUtil.java
-c:\dev\projects\Usermanager\src\main\java\com\sander\usermanager\repository\GebruikerRepository.java
-c:\dev\projects\Usermanager\src\main\java\com\sander\usermanager\App.java
-c:\dev\projects\Usermanager\src\main\java\com\sander\usermanager\repository\UserManagerRepository.java
-c:\dev\projects\Usermanager\src\main\java\com\sander\usermanager\domain\Gebruiker.java
+c:\development\git-projects\usermanager\src\main\java\com\sander\usermanager\controller\GebruikerController.java
+c:\development\git-projects\usermanager\src\main\java\com\sander\usermanager\domain\Gebruiker.java
+c:\development\git-projects\usermanager\src\main\java\com\sander\usermanager\App.java
+c:\development\git-projects\usermanager\src\main\java\com\sander\usermanager\repository\GebruikerRepository.java
+c:\development\git-projects\usermanager\src\main\java\com\sander\usermanager\repository\UserManagerRepository.java
+c:\development\git-projects\usermanager\src\main\java\com\sander\usermanager\util\HibernateUtil.java

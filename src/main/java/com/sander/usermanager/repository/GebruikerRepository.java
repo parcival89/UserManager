@@ -2,17 +2,24 @@ package com.sander.usermanager.repository;
 
 import com.sander.usermanager.domain.Gebruiker;
 import org.hibernate.Session;
-import org.hibernate.criterion.Criterion;
 import org.hibernate.criterion.Restrictions;
 
 import java.util.List;
 
-import static com.sander.usermanager.util.HibernateUtil.*;
+import static com.sander.usermanager.util.HibernateUtil.getSessionFactory;
 
 /**
  * Created by Sander on 10/01/2015.
  */
 public class GebruikerRepository implements UserManagerRepository<Gebruiker> {
+
+    private static GebruikerRepository instance = new GebruikerRepository();
+
+    private GebruikerRepository(){}
+
+    public static GebruikerRepository gebruikerRepository(){
+        return instance;
+    }
 
     @Override
     public List<Gebruiker> zoek(Gebruiker o) {

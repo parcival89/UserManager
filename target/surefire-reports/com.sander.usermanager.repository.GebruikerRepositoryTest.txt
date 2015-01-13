@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.sander.usermanager.repository.GebruikerRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.061 sec
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.528 sec - in com.sander.usermanager.repository.GebruikerRepositoryTest

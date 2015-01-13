@@ -60,6 +60,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Zenito" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -154,6 +155,14 @@
       <method />
     </configuration>
     <list size="0" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\sanderp\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
   </component>
   <component name="masterDetails">
     <states>
