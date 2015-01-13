@@ -2,16 +2,14 @@ package com.sander.usermanager.controller;
 
 import com.sander.usermanager.domain.Gebruiker;
 import com.sander.usermanager.repository.GebruikerRepository;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by SanderP on 12/01/2015.
  */
-
-@RestController
+@Controller
+@ResponseBody
 public class GebruikerController {
 
     private final GebruikerRepository gebruikerRepository = GebruikerRepository.gebruikerRepository();
